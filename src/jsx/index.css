@@ -827,7 +827,7 @@ button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--r
   color: black;
   border-radius: 0.5vw;
   overflow: hidden;
-  padding:  0.3vw;
+  padding: 0.3vw;
   box-shadow: rgb(220, 220, 220) 2px 2px 2px 2px;
 }
 
@@ -852,7 +852,7 @@ button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--r
   gap: 1vw;
   /* margin-top: 1.1vw; */
   /* margin-top: 2vw; */
- 
+
   border-radius: 1vw;
 }
 
@@ -883,12 +883,12 @@ button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--r
   gap: 1vw;
   /* margin-top: 2vw; */
   border-radius: 1vw;
-  
+
 }
 
-.topWrapper{
+.topWrapper {
   display: flex;
-  width:100%;
+  width: 100%;
   height: 70%;
   border-right: 0.1vw solid orange;
 }
@@ -1241,7 +1241,7 @@ input:focus {
 
 #AVAILABLE1 {
   /* color: rgb(255, 134, 134); */
-    color: rgb(38, 129, 13);
+  color: rgb(38, 129, 13);
 }
 
 #AVAILABLE2 {
@@ -1410,7 +1410,7 @@ input:focus {
   left: 293.5px;
 }
 
-#card3{
+#card3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1433,54 +1433,64 @@ input:focus {
 
 /* Custom rounded border for the switch */
 .rounded-switch .form-check-input {
-  border-radius: 50px !important;  /* Round the edges of the switch */
+  border-radius: 50px !important;
+  /* Round the edges of the switch */
 }
 
 .rounded-switch .form-check-label {
-  border-radius: 50px !important;  /* Round the label as well */
+  border-radius: 50px !important;
+  /* Round the label as well */
   /* padding: 5px 15px; Add some padding for a nicer look */
 }
 
 /* Optional: Add a background color to the switch label for a rounded effect */
 .rounded-switch .form-check-input:checked {
-  background-color: #4caf50;  /* Change to your preferred color */
+  background-color: #4caf50;
+  /* Change to your preferred color */
 }
 
 
 
 /* modal btn hover start */
 
-.custom-button:nth-child(1):hover{
-background-color: #238def;
-color: white;
+.custom-button:nth-child(1):hover {
+  background-color: #238def;
+  color: white;
 }
-.custom-button:nth-child(2):hover{
-background-color: black;
-color: white;
+
+.custom-button:nth-child(2):hover {
+  background-color: black;
+  color: white;
 }
-.custom-button:nth-child(3):hover{
-background-color: #00ffff;
-color: rgb(0, 0, 0);
+
+.custom-button:nth-child(3):hover {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
 }
-.custom-button:nth-child(4):hover{
-background-color: #808080;
-color: white;
+
+.custom-button:nth-child(4):hover {
+  background-color: #808080;
+  color: white;
 }
-.custom-button:nth-child(5):hover{
-background-color: #FF0000;
-color: white;
+
+.custom-button:nth-child(5):hover {
+  background-color: #FF0000;
+  color: white;
 }
-.custom-button:nth-child(6):hover{
-background-color: #ffa500;
-color: white;
+
+.custom-button:nth-child(6):hover {
+  background-color: #ffa500;
+  color: white;
 }
-.custom-button:nth-child(7):hover{
-background-color: #ffff00;
-color: rgb(0, 0, 0);
+
+.custom-button:nth-child(7):hover {
+  background-color: #ffff00;
+  color: rgb(0, 0, 0);
 }
-.custom-button:nth-child(8):hover{
-background-color: #ee82ee;
-color: white;
+
+.custom-button:nth-child(8):hover {
+  background-color: #ee82ee;
+  color: white;
 }
 
 
@@ -1491,19 +1501,20 @@ color: white;
   margin: 0 auto;
   /* padding: 1vw; */
   width: 100%;
-   gap: 1vw ;
-overflow-y: hidden;
+  gap: 1vw;
+  overflow-y: hidden;
 }
 
 .cards {
   display: block;
-  transition: margin-top 0.3s ease; /* Smooth transition for margin */
+  transition: margin-top 0.3s ease;
+  /* Smooth transition for margin */
 }
 
 .cardnew {
   padding: 15px;
   /* margin: 10px 0; */
-box-shadow: rgb(238, 238, 238) 4px 4px 4px ;
+  box-shadow: rgb(238, 238, 238) 4px 4px 4px;
   border-radius: 2vw;
   transition: all 0.4s ease-in-out;
 }
@@ -1529,7 +1540,7 @@ box-shadow: rgb(238, 238, 238) 4px 4px 4px ;
   font-size: 14px;
 }
 
-.inputRow{
+.inputRow {
   border-radius: 1vw;
   padding: 0 1vw;
   margin-bottom: 0.3vw;
@@ -1538,21 +1549,24 @@ box-shadow: rgb(238, 238, 238) 4px 4px 4px ;
   /* background-color: rgb(255, 252, 249) */
   /* border: 0.01vw solid #ef2a23; */
 }
-.input-fields input::placeholder{
+
+.input-fields input::placeholder {
   font-size: 0.9vw;
 }
-.input-fields textarea::placeholder{
+
+.input-fields textarea::placeholder {
   color: rgb(124, 124, 124);
   font-size: 0.9vw;
 }
-.input-fields{
+
+.input-fields {
   background-color: #fcfcfc;
   /* border-radius: 1vw; */
   /* box-shadow: rgb(214, 214, 214) 4px 4px 4px;  */
 }
 
 
-.addIcon{
+.addIcon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1560,27 +1574,26 @@ box-shadow: rgb(238, 238, 238) 4px 4px 4px ;
   border-radius: 2vw;
   background-color: #e0e0e0;
 }
-.rate{
+
+.rate {
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 
 }
-.rateCircleNew{
-height: 0.7vw;
-width: 0.7vw;
+
+.rateCircleNew {
+  height: 0.7vw;
+  width: 0.7vw;
   /* background-color: red; */
   border-radius: 100%;
 }
-.rateText{
+
+.rateText {
   font-size: 0.9vw;
   color: black;
   font-weight: 300;
 }
 
-#lastCardNew:hover .amountHiddenContainer{
-right: 0%;
+#lastCardNew:hover .amountHiddenContainer {
+  right: 0%;
 }
-
-
-
- 

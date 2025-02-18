@@ -13,7 +13,7 @@ export const MenuList = [
         ],
     },
     {
-        title: 'Add Details',
+        title: 'Master',
         classsChange: 'mm-collapse',
         iconStyle: <i className="flaticon-381-networking" />,
         content: [
@@ -29,6 +29,10 @@ export const MenuList = [
                 title: 'Add Item',
                 to: 'add-item',
             },
+            {
+                title: 'Add Banding',
+                to: 'add-banding',
+            },
         ],
     },
     {
@@ -39,6 +43,21 @@ export const MenuList = [
             {
                 title: 'All order',
                 to: 'all-order',
+            },
+        ],
+    },
+    {
+        title: 'Tax',
+        classsChange: 'mm-collapse',
+        iconStyle: <i className="flaticon-381-networking" />,
+        content: [
+            {
+                title: 'Tax Master',
+                to: 'tax-master',
+            },
+            {
+                title: 'Tax Setup',
+                to: 'tax-setup',
             },
         ],
     },

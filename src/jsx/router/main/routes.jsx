@@ -13,6 +13,9 @@ import OrderDetails from '../../pages/orders/OrderDetails';
 
 //Royalty
 import Royalty from '../../pages/Royalty/Royalty';
+import TaxMaster from '../../pages/Tax/TaxMaster';
+import TaxSetup from '../../pages/Tax/TaxSetup';
+import BandingForm from '../../pages/productDetails/BandingForm';
 
 const AllRoutes = (props) => {
 
@@ -34,8 +37,20 @@ const AllRoutes = (props) => {
             component: <ItemForm {...props} />
         },
         {
+            url: "add-banding",
+            component: <BandingForm {...props} />
+        },
+        {
             url: "all-order",
             component: <OrderDetails {...props} />
+        },
+        {
+            url: "tax-master",
+            component: <TaxMaster {...props} />
+        },
+        {
+            url: "tax-setup",
+            component: <TaxSetup {...props} />
         },
         {
             url: "royalty",
